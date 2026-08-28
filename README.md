@@ -23,7 +23,8 @@ The code generates the Achievable Rate and Normalized Mean Square Error (NMSE) c
 * **`generateBSARISCalibrationData.m`**: Generates the noisy calibration data for Stage 1.
 * **`nearFieldChan.m` / `nearFieldChan_withAMplitude.m`**: Generates the exact near-field spherical wave channels based on the physical geometry.
 * **`UPA_BasisElupnew.m` / `UPA_Codebook.m` / `UPA_Evaluation.m`**: Utility functions to generate the Uniform Planar Array (UPA) steering vectors and orthogonal codebooks.
-* **`WideTwobeam32.mat`**: Pre-computed wide-beam initialization codebook to accelerate the spatial search.
+* **`widebeam.m`**: Script used to generate the wide-beam phase vectors
+* **`WideTwobeam32.mat`**: Pre-computed wide-beam initialization codebook from widebeam.m to accelerate the spatial search.
 
 ## Requirements
 * MATLAB (Tested on R2025)
