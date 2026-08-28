@@ -7,7 +7,7 @@ This repository contains the MATLAB simulation code for the paper:
 *Link to paper: [https://doi.org/10.1109/LCOMM.2026.3711925]*
 
 ## Overview
-This code evaluates the performance of channel estimation and user tracking in an Active Reconfigurable Intelligent Surface (ARIS) empowered wireless network. Unlike passive RIS, Active RIS introduces dynamic thermal noise amplification, which severely degrades the performance of unstructured estimators (like Least Squares). 
+This code evaluates the performance of channel estimation and user tracking in an Active Reconfigurable Intelligent Surface (ARIS) empowered wireless network.
 
 This repository implements a rigorous **two-stage transmission protocol**:
 1. **Offline Calibration (Stage 1):** A 2D-ESPRIT-based round-trip estimator to acquire the quasi-static BS-ARIS infrastructure prior without assuming perfect CSI.
